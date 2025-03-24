@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from collections import Counter
-from sklearn.metrics import accuracy_score
 
 iris = datasets.load_iris()
 X,y = iris.data , iris.target
